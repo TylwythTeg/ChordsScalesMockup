@@ -7,10 +7,14 @@ public abstract class Scale
 {
     protected String name;
     protected Note root;
-    protected EnumSet<Note> notes = EnumSet.noneOf(Note.class);
+    protected List<Note> notes = new ArrayList<>();
     List<Chord> chords = new ArrayList<>();
 
 
+    public String toString()
+    {
+        return name + " Scale: " + notes;
+    }
 
 
 

@@ -17,7 +17,7 @@ public class AMajorScale extends MajorScale
 
     AMajorScale()
     {
-        notes = EnumSet.of(Note.A, Note. B, Note.CSHARP, Note.D, Note.E, Note.FSHARP, Note.GSHARP);
+        //notes = EnumSet.of(Note.A, Note. B, Note.CSHARP, Note.D, Note.E, Note.FSHARP, Note.GSHARP);
 
         chords.add(AMajor);
         chords.add(BMinor);

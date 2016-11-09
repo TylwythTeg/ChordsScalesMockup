@@ -1,26 +1,29 @@
 
-
-
-
-public class MajorScale extends Scale
+public class DorianScale extends Scale
 {
 
 
-    MajorScale(Note root)
+    DorianScale(Note root)
     {
-        name = root + " Major";
+        name = root + " Dorian";
         this.root = root;
         notes.add(root);
         notes.add(root.plus(2));
-        notes.add(root.plus(4));
+        notes.add(root.plus(3));
         notes.add(root.plus(5));
         notes.add(root.plus(7));
         notes.add(root.plus(9));
-        notes.add(root.plus(11));
+        notes.add(root.plus(10));
     }
-    MajorScale()
+    DorianScale()
     {
 
     }
+
+
+
+
+
+
 
 }
