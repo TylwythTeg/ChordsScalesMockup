@@ -1,10 +1,9 @@
 
 public class AeolianScale extends Scale
 {
-
     AeolianScale(Note root)
     {
-        name = root + " Aeolian";
+        name = root + " Aeolian (Natural Minor)";
         this.root = root;
         notes.add(root);
         notes.add(root.plus(2));

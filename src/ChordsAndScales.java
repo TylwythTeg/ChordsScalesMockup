@@ -15,9 +15,9 @@ public class ChordsAndScales
 
     public ChordsAndScales()
     {
-        MajorScale aMajorScale = new MajorScale(Note.A);
-        MajorScale cMajorScale = new MajorScale(Note.C);
-        MajorScale eMajorScale = new MajorScale(Note.E);
+        IonianScale aMajorScale = new IonianScale(Note.A);
+        IonianScale cMajorScale = new IonianScale(Note.C);
+        IonianScale eMajorScale = new IonianScale(Note.E);
 
         System.out.println(aMajorScale);
         System.out.println(cMajorScale);
@@ -25,8 +25,8 @@ public class ChordsAndScales
 
 
 
-        MinorScale aMinorScale = new MinorScale(Note.A);
-        MinorScale fSharpMinorScale = new MinorScale(Note.FSHARP);
+        AeolianScale aMinorScale = new AeolianScale(Note.A);
+        AeolianScale fSharpMinorScale = new AeolianScale(Note.FSHARP);
 
         DorianScale dDorianScale = new DorianScale(Note.D);
         DorianScale fSharpDorianScale = new DorianScale(Note.FSHARP);
@@ -54,6 +54,7 @@ public class ChordsAndScales
 
 
 
+        //for reference
         for (Note note : Note.values())
         {
             System.out.println(note);

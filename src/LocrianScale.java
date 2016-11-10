@@ -4,7 +4,7 @@ public class LocrianScale extends Scale
 
     LocrianScale(Note root)
     {
-        name = root + " Aeolian";
+        name = root + " Locrian";
         this.root = root;
         notes.add(root);
         notes.add(root.plus(1));

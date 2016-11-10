@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.EnumSet;
 import java.util.List;
 
-public class AMajorScale extends MajorScale
+public class AMajorScale extends IonianScale
 {
 
 

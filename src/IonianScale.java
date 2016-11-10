@@ -2,13 +2,13 @@
 
 
 
-public class MajorScale extends Scale
+public class IonianScale extends Scale
 {
 
 
-    MajorScale(Note root)
+    IonianScale(Note root)
     {
-        name = root + " Major";
+        name = root + " Ionian (Major)";
         this.root = root;
         notes.add(root);
         notes.add(root.plus(2));
@@ -18,7 +18,7 @@ public class MajorScale extends Scale
         notes.add(root.plus(9));
         notes.add(root.plus(11));
     }
-    MajorScale()
+    IonianScale()
     {
 
     }
