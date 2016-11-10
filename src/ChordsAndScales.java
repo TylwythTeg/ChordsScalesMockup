@@ -36,6 +36,24 @@ public class ChordsAndScales
         System.out.println(dDorianScale);
         System.out.println(fSharpDorianScale);
 
+
+        System.out.println(new PhrygianScale(Note.E));
+        System.out.println(new PhrygianScale(Note.B));
+
+        System.out.println(new LydianScale(Note.F));
+        System.out.println(new LydianScale(Note.D));
+
+        System.out.println(new MixolydianScale(Note.G));
+
+
+        System.out.println(new AeolianScale(Note.A));
+        System.out.println(new AeolianScale(Note.CSHARP));
+
+        System.out.println(new LocrianScale(Note.B));
+        System.out.println(new LocrianScale(Note.F));
+
+
+
         for (Note note : Note.values())
         {
             System.out.println(note);
