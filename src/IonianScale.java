@@ -5,10 +5,10 @@
 public class IonianScale extends Scale
 {
 
-
     IonianScale(Note root)
     {
         name = root + " Ionian (Major)";
+        type = "Ionian";
         this.root = root;
 
         //Build scale with appropriate notes based on root

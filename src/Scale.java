@@ -6,6 +6,7 @@ import java.util.List;
 public abstract class Scale
 {
     protected String name;
+    protected String type;
     protected Note root;
     protected List<Note> notes = new ArrayList<>();
     List<Chord> chords = new ArrayList<>();
