@@ -1,4 +1,4 @@
-
+//Entry point to test implementation
 public class ChordsAndScales
 {
 
@@ -19,9 +19,9 @@ public class ChordsAndScales
         IonianScale cMajorScale = new IonianScale(Note.C);
         IonianScale eMajorScale = new IonianScale(Note.E);
 
-        System.out.println(aMajorScale);
-        System.out.println(cMajorScale);
-        System.out.println(eMajorScale);
+        System.out.println(aMajorScale + ": " + aMajorScale.getChords());
+        System.out.println(cMajorScale + ": " + cMajorScale.getChords());
+        System.out.println(eMajorScale + ": " + eMajorScale.getChords());
 
 
 
@@ -31,8 +31,8 @@ public class ChordsAndScales
         DorianScale dDorianScale = new DorianScale(Note.D);
         DorianScale fSharpDorianScale = new DorianScale(Note.FSHARP);
 
-        System.out.println(fSharpMinorScale);
-        System.out.println(aMinorScale);
+        System.out.println(fSharpMinorScale + ": " + fSharpMinorScale.getChords());
+        System.out.println(aMinorScale + ": " + aMinorScale.getChords());
         System.out.println(dDorianScale);
         System.out.println(fSharpDorianScale);
 

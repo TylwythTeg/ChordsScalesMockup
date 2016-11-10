@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Chord extends Triad
 {
-    String name;
+    protected String name;
     List<Note> notes = new ArrayList<>();
 
 
@@ -18,10 +18,15 @@ public class Chord extends Triad
         this.notes = Arrays.asList(notes);
     }
 
+    public void setName(String name)
+    {
+        this.name = name;
+    }
+
     @Override
     public String toString()
     {
-        return notes.toString();
+        return this.name + ": " + notes.toString();
     }
 
 

@@ -16,6 +16,11 @@ public abstract class Scale
         return name + " Scale: " + notes;
     }
 
+    public List<Chord> getChords()
+    {
+        return chords;
+    }
+
 
 
 }
