@@ -10,7 +10,6 @@ public class Fretboard
 
     Fretboard(Scale scale)
     {
-        //Maybe functionize this when we have a lot of tunings
         switch(tuning)
         {
             case STANDARD:
@@ -29,8 +28,7 @@ public class Fretboard
 
         for(GuitarString string : strings)
         {
-
-
+            System.out.println(string);
         }
 
 

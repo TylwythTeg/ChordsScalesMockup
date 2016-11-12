@@ -10,11 +10,20 @@ public class GuitarString
         for(int i=0;i<frets.length;i++)
         {
             frets[i] = openNote.plus(i);
-
-            System.out.println(frets[i] + " Fret: " + i);
         }
 
 
+    }
+
+
+    public String toString()
+    {
+        String string = "";
+        for(int i=0;i<frets.length;i++)
+        {
+            string += "Fret: " + i + " Note: " + frets[i] + "\n";
+        }
+        return string;
     }
 
 
