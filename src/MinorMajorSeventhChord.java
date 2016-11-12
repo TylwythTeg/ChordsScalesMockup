@@ -5,6 +5,7 @@ public class MinorMajorSeventhChord extends Chord
     //create specific chords in scale generation? Probably
     MinorMajorSeventhChord(Note root)
     {
+        this.root = root;
         name = root + " Minor Major 7th Chord";
 
         notes.add(root);

@@ -1,4 +1,11 @@
 
-public abstract class Triad
+public enum Triad
 {
+    MAJOR,MINOR,SUSPENDED,AUGMENTED, DIMINISHED, FLAT_FIFTH;
+
+
+
+
+
+
 }

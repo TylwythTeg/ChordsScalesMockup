@@ -31,6 +31,11 @@ public enum Note
         return getByIndex(n);
     }
 
+    public Note plus(Interval interval)
+    {
+        return plus(interval.getSemitones());
+    }
+
     @Override
     public String toString()
     {

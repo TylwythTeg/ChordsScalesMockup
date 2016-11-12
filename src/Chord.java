@@ -3,10 +3,14 @@ import java.util.List;
 import java.util.Arrays;
 
 
-public class Chord extends Triad
+public class Chord //extends Triad
 {
     protected String name;
+    protected Note root;
+    Triad type;
     List<Note> notes = new ArrayList<>();
+
+    //attributes/variants
 
 
     public String getName()
@@ -30,11 +34,50 @@ public class Chord extends Triad
         return this.name + ": " + notes.toString();
     }
 
+    public Note getRoot()
+    {
+        return root;
+    }
+
+    public List<Chord> getVariants(Scale scale)
+    {
+        List<Chord> chords = new ArrayList<>();
+        chords.add(new MajorChord(scale.getRoot()));
+
+        return chords;
+    }
+
+    public void addNote(Note note)
+    {
+        notes.add(note);
+    }
+
     public static Chord Major(Note root)
     {
         Chord majorChord = new MajorChord(root);
         return majorChord;
     }
+
+    public Triad getType()
+    {
+        return type;
+    }
+
+
+
+    public Chord DominantSeventh()
+    {
+        Note notesArray[] = notes.stream().toArray(Note[]::new);
+
+        Chord newChord = new Chord(notesArray);
+        newChord.addNote(root.plus(Interval.DOMINANT_SEVENTH));
+
+        return newChord;
+    }
+
+
+
+
 
 
 

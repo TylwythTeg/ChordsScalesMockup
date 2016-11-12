@@ -6,6 +6,7 @@ public class MajorChord extends Chord
     //create specific chords in scale generation?
     MajorChord(Note root)
     {
+        this.root = root;
         name = root + "Major";
 
         notes.add(root);
