@@ -52,6 +52,8 @@ public class ChordsAndScales
         System.out.println(new LocrianScale(Note.B));
         System.out.println(new LocrianScale(Note.F));
 
+        System.out.println(new HarmonicMinorScale(Note.D) + " " + new HarmonicMinorScale(Note.D).getChords());
+
 
 
         //for reference
