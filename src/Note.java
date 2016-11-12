@@ -21,9 +21,12 @@ public enum Note
 
     public Note plus(int n)
     {
-        n += this.index;
-        if(n >= 12)
+        while(this.index+n >=12)
+        {
             n -= 12;
+        }
+
+        n += this.index;
 
         return getByIndex(n);
     }

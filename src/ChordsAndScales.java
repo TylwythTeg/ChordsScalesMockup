@@ -55,6 +55,9 @@ public class ChordsAndScales
         System.out.println(new HarmonicMinorScale(Note.D) + " " + new HarmonicMinorScale(Note.D).getChords());
 
 
+        new Fretboard(new HarmonicMinorScale(Note.D));
+
+
 
         //for reference
         for (Note note : Note.values())
