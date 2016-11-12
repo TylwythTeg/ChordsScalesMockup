@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.TreeMap;
 
 
 public abstract class Scale
@@ -9,6 +10,8 @@ public abstract class Scale
     protected Note root;
     protected List<Note> notes = new ArrayList<>();
     List<Chord> chords = new ArrayList<>();
+
+
 
 
     public String toString()

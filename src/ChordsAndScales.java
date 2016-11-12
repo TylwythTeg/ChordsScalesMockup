@@ -58,6 +58,9 @@ public class ChordsAndScales
         new Fretboard(new HarmonicMinorScale(Note.D));
 
 
+        new Fretboard(new HarmonicMinorScale(Note.GSHARP));
+
+
 
         //for reference
         for (Note note : Note.values())

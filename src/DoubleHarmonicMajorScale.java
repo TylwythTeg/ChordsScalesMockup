@@ -1,6 +1,10 @@
 
 public class DoubleHarmonicMajorScale extends Scale
 {
+    //Right now this class poses an inevitable problem, and that's chords beyond the simple triads.
+    //It's a problem in the others, but this is more apparent because certain notes in the scale
+    //e.g. the second and 3rd note in the scale have both Major and Minor
+    //second note has augmented too
 
     DoubleHarmonicMajorScale(Note root)
     {
