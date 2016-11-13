@@ -7,11 +7,11 @@ public class DiminishedChord extends Chord
     DiminishedChord(Note root)
     {
         this.root = root;
-        name = root + "Major";
+        name = root + "Diminished";
 
         notes.add(root);
-        notes.add(root.plus(4));
-        notes.add(root.plus(7));
+        notes.add(root.plus(Interval.MINOR_THIRD));
+        notes.add(root.plus(Interval.FIFTH.flat()));
 
     }
 

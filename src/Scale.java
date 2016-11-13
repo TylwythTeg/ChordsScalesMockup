@@ -107,9 +107,6 @@ public abstract class Scale
         if(this.hasTriad(chordRoot,Triad.AUGMENTED))
             triadsForNote.add(Chord.augmented(chordRoot));
 
-        if(this.hasTriad(chordRoot,Triad.AUGMENTED))
-            triadsForNote.add(Chord.augmented(chordRoot));
-
         if(this.hasTriad(chordRoot,Triad.DIMINISHED))
             triadsForNote.add(Chord.diminished(chordRoot));
 

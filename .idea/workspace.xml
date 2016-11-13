@@ -5,37 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="421d1e00-790e-4460-9560-416a614691c2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AugmentedChord.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DiminishedChord.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FlatFifthChord.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MinorChord.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SuspendedChord.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Chords And Scales/AMajorChord.class" afterPath="$PROJECT_DIR$/out/production/Chords And Scales/AMajorChord.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Chords And Scales/AMajorScale.class" afterPath="$PROJECT_DIR$/out/production/Chords And Scales/AMajorScale.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Chords And Scales/AeolianScale.class" afterPath="$PROJECT_DIR$/out/production/Chords And Scales/AeolianScale.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Chords And Scales/Chord.class" afterPath="$PROJECT_DIR$/out/production/Chords And Scales/Chord.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Chords And Scales/ChordsAndScales.class" afterPath="$PROJECT_DIR$/out/production/Chords And Scales/ChordsAndScales.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Chords And Scales/DoubleHarmonicMajorScale.class" afterPath="$PROJECT_DIR$/out/production/Chords And Scales/DoubleHarmonicMajorScale.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Chords And Scales/GuitarString.class" afterPath="$PROJECT_DIR$/out/production/Chords And Scales/GuitarString.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Chords And Scales/HarmonicMinorScale.class" afterPath="$PROJECT_DIR$/out/production/Chords And Scales/HarmonicMinorScale.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Chords And Scales/IonianScale.class" afterPath="$PROJECT_DIR$/out/production/Chords And Scales/IonianScale.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Chords And Scales/MajorChord.class" afterPath="$PROJECT_DIR$/out/production/Chords And Scales/MajorChord.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Chords And Scales/Note$1.class" afterPath="$PROJECT_DIR$/out/production/Chords And Scales/Note$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Chords And Scales/Note.class" afterPath="$PROJECT_DIR$/out/production/Chords And Scales/Note.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Chords And Scales/Scale.class" afterPath="$PROJECT_DIR$/out/production/Chords And Scales/Scale.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Chords And Scales/Triad.class" afterPath="$PROJECT_DIR$/out/production/Chords And Scales/Triad.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AMajorScale.java" afterPath="$PROJECT_DIR$/src/AMajorScale.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Chord.java" afterPath="$PROJECT_DIR$/src/Chord.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ChordMap.java" afterPath="$PROJECT_DIR$/src/ChordMap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ChordsAndScales.java" afterPath="$PROJECT_DIR$/src/ChordsAndScales.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DiminishedChord.java" afterPath="$PROJECT_DIR$/src/DiminishedChord.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DoubleHarmonicMajorScale.java" afterPath="$PROJECT_DIR$/src/DoubleHarmonicMajorScale.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Interval.java" afterPath="$PROJECT_DIR$/src/Interval.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/IonianScale.java" afterPath="$PROJECT_DIR$/src/IonianScale.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MajorChord.java" afterPath="$PROJECT_DIR$/src/MajorChord.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Note.java" afterPath="$PROJECT_DIR$/src/Note.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Scale.java" afterPath="$PROJECT_DIR$/src/Scale.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Triad.java" afterPath="$PROJECT_DIR$/src/Triad.java" />
     </list>
     <ignored path="Chords And Scales.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,15 +37,25 @@
       <file leaf-file-name="Scale.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Scale.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+            <state relative-caret-position="-544">
+              <caret line="88" column="54" selection-start-line="88" selection-start-column="54" selection-end-line="88" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#589#608#0" expanded="true" />
                 <element signature="e#664#677#0" expanded="true" />
-                <element signature="e#4497#4498#0" expanded="true" />
-                <element signature="e#4525#4526#0" expanded="true" />
+                <element signature="e#4384#4385#0" expanded="true" />
+                <element signature="e#4412#4413#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DiminishedChord.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DiminishedChord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -118,8 +101,8 @@
       <file leaf-file-name="DoubleHarmonicMajorScale.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DoubleHarmonicMajorScale.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="284">
+              <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -128,18 +111,18 @@
       <file leaf-file-name="ChordsAndScales.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ChordsAndScales.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="250">
+              <caret line="84" column="57" selection-start-line="84" selection-start-column="57" selection-end-line="84" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Chord.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Chord.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Chord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+            <state relative-caret-position="193">
+              <caret line="107" column="39" selection-start-line="107" selection-start-column="36" selection-end-line="107" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -150,11 +133,21 @@
       <file leaf-file-name="MajorChord.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MajorChord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+            <state relative-caret-position="510">
+              <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Triad.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Triad.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -206,14 +199,14 @@
         <option value="$PROJECT_DIR$/src/MinorChord.java" />
         <option value="$PROJECT_DIR$/src/SuspendedChord.java" />
         <option value="$PROJECT_DIR$/src/AugmentedChord.java" />
-        <option value="$PROJECT_DIR$/src/DiminishedChord.java" />
         <option value="$PROJECT_DIR$/src/FlatFifthChord.java" />
-        <option value="$PROJECT_DIR$/src/DoubleHarmonicMajorScale.java" />
         <option value="$PROJECT_DIR$/src/ChordMap.java" />
-        <option value="$PROJECT_DIR$/src/Scale.java" />
         <option value="$PROJECT_DIR$/src/ChordsAndScales.java" />
         <option value="$PROJECT_DIR$/src/MajorChord.java" />
         <option value="$PROJECT_DIR$/src/Chord.java" />
+        <option value="$PROJECT_DIR$/src/Scale.java" />
+        <option value="$PROJECT_DIR$/src/DoubleHarmonicMajorScale.java" />
+        <option value="$PROJECT_DIR$/src/DiminishedChord.java" />
       </list>
     </option>
   </component>
@@ -698,16 +691,16 @@
       <workItem from="1478853333930" duration="581000" />
       <workItem from="1478906492078" duration="10231000" />
       <workItem from="1478928288946" duration="20818000" />
-      <workItem from="1479023553617" duration="13540000" />
+      <workItem from="1479023553617" duration="15036000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72088000" />
+    <option name="totallyTimeSpent" value="73584000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -837,8 +830,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#589#608#0" expanded="true" />
             <element signature="e#664#677#0" expanded="true" />
-            <element signature="e#4497#4498#0" expanded="true" />
-            <element signature="e#4525#4526#0" expanded="true" />
+            <element signature="e#4384#4385#0" expanded="true" />
+            <element signature="e#4412#4413#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -897,8 +890,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#589#608#0" expanded="true" />
             <element signature="e#664#677#0" expanded="true" />
-            <element signature="e#4497#4498#0" expanded="true" />
-            <element signature="e#4525#4526#0" expanded="true" />
+            <element signature="e#4384#4385#0" expanded="true" />
+            <element signature="e#4412#4413#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1084,26 +1077,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Triad.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MinorChord.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DiminishedChord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -1175,53 +1152,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scale.java">
+    <entry file="file://$PROJECT_DIR$/src/Triad.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="107" column="39" selection-start-line="107" selection-start-column="36" selection-end-line="107" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#589#608#0" expanded="true" />
-            <element signature="e#664#677#0" expanded="true" />
-            <element signature="e#4497#4498#0" expanded="true" />
-            <element signature="e#4525#4526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MajorChord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ChordsAndScales.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="250">
+          <caret line="84" column="57" selection-start-line="84" selection-start-column="57" selection-end-line="84" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DoubleHarmonicMajorScale.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="284">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MajorChord.java">
+    <entry file="file://$PROJECT_DIR$/src/Scale.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+        <state relative-caret-position="-544">
+          <caret line="88" column="54" selection-start-line="88" selection-start-column="54" selection-end-line="88" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#589#608#0" expanded="true" />
+            <element signature="e#664#677#0" expanded="true" />
+            <element signature="e#4384#4385#0" expanded="true" />
+            <element signature="e#4412#4413#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chord.java">
+    <entry file="file://$PROJECT_DIR$/src/DiminishedChord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
