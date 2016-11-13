@@ -8,7 +8,7 @@ public class Chord //extends Triad
     protected String name;
     protected Note root;
     Triad type;
-    List<Note> notes = new ArrayList<>();
+    protected List<Note> notes = new ArrayList<>();
 
     //attributes/variants
 
@@ -18,9 +18,17 @@ public class Chord //extends Triad
         return name;
     }
 
-    Chord(Note ... notes)
+    Chord()
     {
-        this.notes = Arrays.asList(notes);
+
+    }
+
+    Chord(Note ... chordNotes)
+    {
+
+        List<Note> newNotes = new ArrayList<>(Arrays.asList(chordNotes));
+        this.notes = newNotes;
+        //notes.add(Note.GSHARP);
     }
 
     public void setName(String name)
@@ -52,10 +60,40 @@ public class Chord //extends Triad
         notes.add(note);
     }
 
-    public static Chord Major(Note root)
+    public static Chord major(Note root)
     {
-        Chord majorChord = new MajorChord(root);
-        return majorChord;
+        Chord chord = new MajorChord(root);
+        return chord;
+    }
+
+    public static Chord minor(Note root)
+    {
+        Chord minorChord = new MinorChord(root);
+        return minorChord;
+    }
+
+    public static Chord suspended(Note root, Interval interval)
+    {
+        Chord susChord = new SuspendedChord(root,interval);
+        return susChord;
+    }
+
+    public static Chord augmented(Note root)
+    {
+        Chord augChord = new AugmentedChord(root);
+        return augChord;
+    }
+
+    public static Chord diminished(Note root)
+    {
+        Chord dimChord = new DiminishedChord(root);
+        return dimChord;
+    }
+
+    public static Chord flatFifth(Note root)
+    {
+        Chord chord = new FlatFifthChord(root);
+        return chord;
     }
 
     public Triad getType()
@@ -74,6 +112,11 @@ public class Chord //extends Triad
 
         return newChord;
     }
+
+    //public static Chord of(Note ... notes)
+    //{
+
+    //}
 
 
 

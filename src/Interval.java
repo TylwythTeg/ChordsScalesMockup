@@ -17,6 +17,15 @@ public enum Interval
     }
 
 
+    public int sharp()
+    {
+        return this.semitones+1;
+    }
+
+    public int flat()
+    {
+        return this.semitones-1;
+    }
 
 
 

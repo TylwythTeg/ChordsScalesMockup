@@ -1,3 +1,4 @@
+import java.util.List;
 
 public class DoubleHarmonicMajorScale extends Scale
 {
@@ -10,7 +11,11 @@ public class DoubleHarmonicMajorScale extends Scale
 
     DoubleHarmonicMajorScale(Note root)
     {
-        name = root + " Harmonic Minor";
+        //super();
+
+
+
+        name = root + " Double Harmonic Major";
         type = "Ionian";
         this.root = root;
 
@@ -23,6 +28,19 @@ public class DoubleHarmonicMajorScale extends Scale
         notes.add(root.plus(8));
         notes.add(root.plus(11));
 
+        for (Note note : notes)
+        {
+            //System.out.println("SDd");
+            List<Chord> triads = getTriadsForNote(note);
+            System.out.println("TRIADS ARE  " + triads);
+            realTriads.put(note,triads);
+
+            System.out.println(realTriads);
+
+            //build variants below here?
+
+        }
+
         //add triad chords based on scale
         triads.add(new Chord(notes.get(0), notes.get(2), notes.get(4))); //i
         triads.add(new Chord(notes.get(1), notes.get(3), notes.get(5))); //iidim
@@ -33,13 +51,18 @@ public class DoubleHarmonicMajorScale extends Scale
         triads.add(new Chord(notes.get(6), notes.get(1), notes.get(3))); //viidim
 
         //set names for chords
-        triads.get(0).setName(notes.get(0) + " Minor");
-        triads.get(1).setName(notes.get(1) + " Diminished");
-        triads.get(2).setName(notes.get(2) + " Augmented");
+        triads.get(0).setName(notes.get(0) + " Major");
+        triads.get(1).setName(notes.get(1) + " Major/Minor");
+        triads.get(2).setName(notes.get(2) + " Major/Minor/Augmented");
         triads.get(3).setName(notes.get(3) + " Minor");
         triads.get(4).setName(notes.get(4) + " Major");
         triads.get(5).setName(notes.get(5) + " Major");
         triads.get(6).setName(notes.get(6) + " Diminished");
+
+
+
+        System.out.println(realTriads);
+
 
     }
     DoubleHarmonicMajorScale()

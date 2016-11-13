@@ -66,5 +66,15 @@ public enum Note
 
     }
 
+    public boolean isInScale(Scale scale)
+    {
+        for (Note note : scale.getNotes())
+        {
+            if (this == note)
+                return true;
+        }
+        return false;
+    }
+
 
 }

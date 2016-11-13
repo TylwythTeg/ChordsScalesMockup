@@ -19,6 +19,8 @@ public class ChordsAndScales
         IonianScale cMajorScale = new IonianScale(Note.C);
         IonianScale eMajorScale = new IonianScale(Note.E);
 
+        new MajorChord(Note.E);
+
         System.out.println(aMajorScale + ": " + aMajorScale.getChords());
         System.out.println(cMajorScale + ": " + cMajorScale.getChords());
         System.out.println(eMajorScale + ": " + eMajorScale.getChords());
@@ -54,11 +56,33 @@ public class ChordsAndScales
 
         System.out.println(new HarmonicMinorScale(Note.D) + " " + new HarmonicMinorScale(Note.D).getChords());
 
+        //System.out.println(new DoubleHarmonicMajorScale(Note.ASHARP) + " " + new DoubleHarmonicMajorScale(Note.ASHARP).getTriads());
+
 
         new Fretboard(new HarmonicMinorScale(Note.D));
 
 
         new Fretboard(new HarmonicMinorScale(Note.GSHARP));
+
+        //System.out.println(new DoubleHarmonicMajorScale(Note.ASHARP) + " " + new DoubleHarmonicMajorScale(Note.ASHARP).getTriads());
+
+
+
+
+        if( Note.F.isInScale(new HarmonicMinorScale(Note.D)))
+        {
+            System.out.println("yeah F is in D Harmonic Scale");
+        }
+
+        if( Note.F.isInScale(new IonianScale(Note.E)))
+        {
+            System.out.println("sdfdsf");
+        }
+
+
+
+
+        System.out.println(new DoubleHarmonicMajorScale(Note.E));
 
 
 

@@ -19,19 +19,19 @@ public class AMajorScale extends IonianScale
     {
         //notes = EnumSet.of(Note.A, Note. B, Note.CSHARP, Note.D, Note.E, Note.FSHARP, Note.GSHARP);
 
-        chords.add(AMajor);
-        chords.add(BMinor);
-        chords.add(CSharpMinor);
-        chords.add(DMajor);
-        chords.add(EMajor);
-        chords.add(FSharpMinor);
-        chords.add(GSharpDiminished);
+        triads.add(AMajor);
+        triads.add(BMinor);
+        triads.add(CSharpMinor);
+        triads.add(DMajor);
+        triads.add(EMajor);
+        triads.add(FSharpMinor);
+        triads.add(GSharpDiminished);
     }
 
 
     public List<Chord> getChords()
     {
-        return chords;
+        return triads;
     }
 
 
