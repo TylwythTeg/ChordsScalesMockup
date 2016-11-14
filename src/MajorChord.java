@@ -9,22 +9,10 @@ public class MajorChord extends Chord
     //create specific chords in scale generation?
     MajorChord(Note root)
     {
-
         this.root = root;
         name = root + "Major";
-        System.out.println("ROOT IS " + root);
 
-        System.out.println(notes);
-        //notes.add
-
-        System.out.println(this.notes.getClass());
-
-        //notes = new ArrayList<>();
-        this.notes.add(root);
-        this.notes.add(root.plus(4));
-        this.notes.add(root.plus(7));
-
-        //System.out.println(notes);
+        addNotes();
 
     }
 
@@ -34,6 +22,12 @@ public class MajorChord extends Chord
 
         return majorChord;
     }*/
+    public void addNotes()
+    {
+        this.notes.add(root);
+        this.notes.add(root.plus(Interval.MAJOR_THIRD));
+        this.notes.add(root.plus(Interval.FIFTH));
+    }
 
 
 

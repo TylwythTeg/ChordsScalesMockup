@@ -82,7 +82,7 @@ public class ChordsAndScales
 
 
 
-        System.out.println(new DoubleHarmonicMajorScale(Note.E));
+        new DoubleHarmonicMajorScale(Note.E);
 
 
 

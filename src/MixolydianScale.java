@@ -4,8 +4,21 @@ public class MixolydianScale extends Scale
 
     MixolydianScale(Note root)
     {
-        name = root + " Mixolydian";
         this.root = root;
+        name = root + " Mixolydian";
+
+        addNotes();
+        addTriads();
+
+
+    }
+    MixolydianScale()
+    {
+
+    }
+
+    public void addNotes()
+    {
         notes.add(root);
         notes.add(root.plus(2));
         notes.add(root.plus(4));
@@ -13,10 +26,6 @@ public class MixolydianScale extends Scale
         notes.add(root.plus(7));
         notes.add(root.plus(9));
         notes.add(root.plus(10));
-    }
-    MixolydianScale()
-    {
-
     }
 
 }

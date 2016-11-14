@@ -4,36 +4,15 @@ public class HarmonicMinorScale extends Scale
 
     HarmonicMinorScale(Note root)
     {
-        name = root + " Harmonic Minor";
-        type = "Ionian";
         this.root = root;
+        name = root + " Harmonic Minor";
+        type = "Harmonic Minor";
 
-        //Build scale with appropriate notes based on root
-        notes.add(root);
-        notes.add(root.plus(2));
-        notes.add(root.plus(3));
-        notes.add(root.plus(5));
-        notes.add(root.plus(7));
-        notes.add(root.plus(8));
-        notes.add(root.plus(11));
+        addNotes();
+        addTriads();
 
-        //add triad triads based on scale
-        triads.add(new Chord(notes.get(0), notes.get(2), notes.get(4))); //i
-        triads.add(new Chord(notes.get(1), notes.get(3), notes.get(5))); //iidim
-        triads.add(new Chord(notes.get(2), notes.get(4), notes.get(6))); //IIIaug
-        triads.add(new Chord(notes.get(3), notes.get(5), notes.get(0))); //iv
-        triads.add(new Chord(notes.get(4), notes.get(6), notes.get(1))); //V
-        triads.add(new Chord(notes.get(5), notes.get(0), notes.get(2))); //VI
-        triads.add(new Chord(notes.get(6), notes.get(1), notes.get(3))); //viidim
 
-        //set names for triads
-        triads.get(0).setName(notes.get(0) + " Minor");
-        triads.get(1).setName(notes.get(1) + " Diminished");
-        triads.get(2).setName(notes.get(2) + " Augmented");
-        triads.get(3).setName(notes.get(3) + " Minor");
-        triads.get(4).setName(notes.get(4) + " Major");
-        triads.get(5).setName(notes.get(5) + " Major");
-        triads.get(6).setName(notes.get(6) + " Diminished");
+        //make sure to set names for triads in specific constructor set names for triads
 
     }
     HarmonicMinorScale()
@@ -42,6 +21,16 @@ public class HarmonicMinorScale extends Scale
     }
 
 
+    public void addNotes()
+    {
+        notes.add(root);
+        notes.add(root.plus(2));
+        notes.add(root.plus(3));
+        notes.add(root.plus(5));
+        notes.add(root.plus(7));
+        notes.add(root.plus(8));
+        notes.add(root.plus(11));
+    }
 
 
 

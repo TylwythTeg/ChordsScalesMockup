@@ -9,9 +9,8 @@ public class FlatFifthChord extends Chord
         this.root = root;
         name = root + "Flat 5";
 
-        notes.add(root);
-        notes.add(root.plus(Interval.MAJOR_THIRD));
-        notes.add(root.plus(Interval.FIFTH.flat()));
+        addNotes();
+
 
     }
 
@@ -20,6 +19,13 @@ public class FlatFifthChord extends Chord
         FlatFifthChord chord = new FlatFifthChord(root);
 
         return chord;
+    }
+
+    public void addNotes()
+    {
+        notes.add(root);
+        notes.add(root.plus(Interval.MAJOR_THIRD));
+        notes.add(root.plus(Interval.FIFTH.flat()));
     }
 
 

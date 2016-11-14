@@ -9,10 +9,7 @@ public class AugmentedChord extends Chord
         this.root = root;
         name = root + "Augmented";
 
-        notes.add(root);
-        notes.add(root.plus(Interval.MAJOR_THIRD));
-        notes.add(root.plus(Interval.FIFTH.sharp()));
-
+        addNotes();
     }
 
     public static AugmentedChord of(Note root)
@@ -22,6 +19,12 @@ public class AugmentedChord extends Chord
         return chord;
     }
 
+    public void addNotes()
+    {
+        notes.add(root);
+        notes.add(root.plus(Interval.MAJOR_THIRD));
+        notes.add(root.plus(Interval.FIFTH.sharp()));
+    }
 
 
 

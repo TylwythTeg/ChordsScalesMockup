@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.TreeMap;
 import java.util.Collections;
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 
 
 public abstract class Scale
@@ -17,34 +17,19 @@ public abstract class Scale
     //can get all chords through:
     //iterate through each note, each note gives a list of possible Triads in the scale
     //The Triads themselves are the key to the list of chord variants
-    HashMap<Note, List<Chord>> realTriads = new HashMap<Note, List<Chord>>();
-    HashMap<Chord,Chord> triadVariants = new HashMap<Chord,Chord>();
+    LinkedHashMap<Note, List<Chord>> realTriads = new LinkedHashMap<Note, List<Chord>>();
+    LinkedHashMap<Chord,Chord> triadVariants = new LinkedHashMap<Chord,Chord>();
 
 
 
-
-    ChordMap chordmap;
-
-    //List<Chord> variations = new ArrayList<>();
-    //TreeMap<Chord,ArrayList<Chord>> triads = new TreeMap<Chord, ArrayList<Chord>>();
-    //TreeMap<Note,TreeMap >
+   
 
     Scale()
     {
-        //build triads
-        /*for (Note note : notes)
-        {
-            List<Chord> triads = getTriads(note);
-            realTriads.put(note,triads);
-
-            System.out.println(realTriads);
-
-            //build variants below here?
-
-        }*/
-
 
     }
+
+    public abstract void addNotes();
 
 
 
@@ -64,40 +49,26 @@ public abstract class Scale
         return triads;
     }
 
-    /*List<Triad> getTriadsForNote(Note root)
+    public void addTriads()
     {
-        List<Triad> triadsForNote = new ArrayList<>();
-        //Figure out what triads exist based on the root note and scale notes
+        for(Note chordRoot : notes)
+        {
+            realTriads.put(chordRoot, buildTriadsForNote(chordRoot));
+        }
 
-        //check MAJOR
-            triadsForNote.add(Triad.MAJOR);
-        //check MINOR
+    }
 
-        //check SUSPENDED
 
-        //check AUGMENTED
-
-        //check FLATTED FIFTH
-
-        //check DIMINISHED
-
-        return triadsForNote;
-    }*/
-
-    public List<Chord> getTriadsForNote(Note chordRoot)
+    public List<Chord> buildTriadsForNote(Note chordRoot)
     {
         List<Chord> triadsForNote = new ArrayList<>();
-        //Figure out what triads exist based on the root note and scale notes
 
-        //check MAJOR
         if(this.hasTriad(chordRoot, Triad.MAJOR))
             triadsForNote.add(Chord.major(chordRoot));
 
-        //check MINOR
         if(this.hasTriad(chordRoot, Triad.MINOR))
             triadsForNote.add(Chord.minor(chordRoot));
 
-        //check SUSPENDED
         if(this.hasTriad(chordRoot,Triad.SUSPENDED_SECOND))
             triadsForNote.add(Chord.suspended(chordRoot,Interval.SECOND));
 
@@ -112,15 +83,6 @@ public abstract class Scale
 
         if(this.hasTriad(chordRoot,Triad.FLAT_FIFTH))
             triadsForNote.add(Chord.flatFifth(chordRoot));
-
-
-
-        //check AUGMENTED
-
-        //check FLATTED FIFTH
-        //System.out.println("EWREWRW" + triadsForNote);
-
-        //check DIMINISHED
 
         return triadsForNote;
     }

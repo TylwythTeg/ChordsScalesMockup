@@ -14,6 +14,13 @@ public class MinorChord extends Chord
 
     }
 
+    public void addNotes()
+    {
+        notes.add(root);
+        notes.add(root.plus(Interval.MINOR_THIRD));
+        notes.add(root.plus(Interval.FIFTH));
+    }
+
 
 
 

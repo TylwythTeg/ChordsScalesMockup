@@ -28,7 +28,6 @@ public class Chord //extends Triad
 
         List<Note> newNotes = new ArrayList<>(Arrays.asList(chordNotes));
         this.notes = newNotes;
-        //notes.add(Note.GSHARP);
     }
 
     public void setName(String name)
@@ -101,6 +100,8 @@ public class Chord //extends Triad
         return type;
     }
 
+    //public abstract void addNotes();
+
 
 
     public Chord DominantSeventh()
@@ -112,11 +113,6 @@ public class Chord //extends Triad
 
         return newChord;
     }
-
-    //public static Chord of(Note ... notes)
-    //{
-
-    //}
 
 
 
@@ -131,12 +127,6 @@ public class Chord //extends Triad
         // Chord chord = new chord(Note.A,Note.B, Note.C); if chord.isMajor()
         //get all notes
         //look at intervals
-
-        return true;
-    }
-
-    public boolean isMinor()
-    {
 
         return true;
     }

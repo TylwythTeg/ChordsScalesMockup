@@ -9,9 +9,7 @@ public class DiminishedChord extends Chord
         this.root = root;
         name = root + "Diminished";
 
-        notes.add(root);
-        notes.add(root.plus(Interval.MINOR_THIRD));
-        notes.add(root.plus(Interval.FIFTH.flat()));
+        addNotes();
 
     }
 
@@ -20,6 +18,13 @@ public class DiminishedChord extends Chord
         DiminishedChord chord = new DiminishedChord(root);
 
         return chord;
+    }
+
+    public void addNotes()
+    {
+        notes.add(root);
+        notes.add(root.plus(Interval.MINOR_THIRD));
+        notes.add(root.plus(Interval.FIFTH.flat()));
     }
 
 

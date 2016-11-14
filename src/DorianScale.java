@@ -5,8 +5,19 @@ public class DorianScale extends Scale
 
     DorianScale(Note root)
     {
-        name = root + " Dorian";
         this.root = root;
+        name = root + " Dorian";
+
+        addNotes();
+        addTriads();
+    }
+    DorianScale()
+    {
+
+    }
+
+    public void addNotes()
+    {
         notes.add(root);
         notes.add(root.plus(2));
         notes.add(root.plus(3));
@@ -15,11 +26,6 @@ public class DorianScale extends Scale
         notes.add(root.plus(9));
         notes.add(root.plus(10));
     }
-    DorianScale()
-    {
-
-    }
-
 
 
 

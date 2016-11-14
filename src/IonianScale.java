@@ -7,18 +7,13 @@ public class IonianScale extends Scale
 
     IonianScale(Note root)
     {
+        this.root = root;
         name = root + " Ionian (Major)";
         type = "Ionian";
-        this.root = root;
 
-        //Build scale with appropriate notes based on root
-        notes.add(root);
-        notes.add(root.plus(2));
-        notes.add(root.plus(4));
-        notes.add(root.plus(5));
-        notes.add(root.plus(7));
-        notes.add(root.plus(9));
-        notes.add(root.plus(11));
+
+        addNotes();
+        addTriads();
 
         //add triad chords based on scale
         triads.add(new Chord(notes.get(0), notes.get(2), notes.get(4))); //I
@@ -42,6 +37,17 @@ public class IonianScale extends Scale
     IonianScale()
     {
 
+    }
+
+    public void addNotes()
+    {
+        notes.add(root);
+        notes.add(root.plus(2));
+        notes.add(root.plus(4));
+        notes.add(root.plus(5));
+        notes.add(root.plus(7));
+        notes.add(root.plus(9));
+        notes.add(root.plus(11));
     }
 
 }
