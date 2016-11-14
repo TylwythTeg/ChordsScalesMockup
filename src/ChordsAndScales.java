@@ -21,9 +21,9 @@ public class ChordsAndScales
 
         new MajorChord(Note.E);
 
-        System.out.println(aMajorScale + ": " + aMajorScale.getChords());
-        System.out.println(cMajorScale + ": " + cMajorScale.getChords());
-        System.out.println(eMajorScale + ": " + eMajorScale.getChords());
+        System.out.println(aMajorScale + ": " + aMajorScale.getTriads());
+        System.out.println(cMajorScale + ": " + cMajorScale.getTriads());
+        System.out.println(eMajorScale + ": " + eMajorScale.getTriads());
 
 
 
@@ -33,8 +33,8 @@ public class ChordsAndScales
         DorianScale dDorianScale = new DorianScale(Note.D);
         DorianScale fSharpDorianScale = new DorianScale(Note.FSHARP);
 
-        System.out.println(fSharpMinorScale + ": " + fSharpMinorScale.getChords());
-        System.out.println(aMinorScale + ": " + aMinorScale.getChords());
+        System.out.println(fSharpMinorScale + ": " + fSharpMinorScale.getTriads());
+        System.out.println(aMinorScale + ": " + aMinorScale.getTriads());
         System.out.println(dDorianScale);
         System.out.println(fSharpDorianScale);
 
@@ -54,7 +54,7 @@ public class ChordsAndScales
         System.out.println(new LocrianScale(Note.B));
         System.out.println(new LocrianScale(Note.F));
 
-        System.out.println(new HarmonicMinorScale(Note.D) + " " + new HarmonicMinorScale(Note.D).getChords());
+        System.out.println(new HarmonicMinorScale(Note.D) + " " + new HarmonicMinorScale(Note.D).getTriads());
 
         //System.out.println(new DoubleHarmonicMajorScale(Note.ASHARP) + " " + new DoubleHarmonicMajorScale(Note.ASHARP).getTriads());
 

@@ -11,7 +11,7 @@ public abstract class Scale
     protected String type;
     protected Note root;
     protected List<Note> notes = new ArrayList<>();
-    List<Chord> triads = new ArrayList<>();
+    //List<Chord> triads = new ArrayList<>();
 
 
     //can get all chords through:
@@ -22,7 +22,7 @@ public abstract class Scale
 
 
 
-   
+
 
     Scale()
     {
@@ -44,9 +44,9 @@ public abstract class Scale
         return root;
     }
 
-    public List<Chord> getTriads()
+    public LinkedHashMap<Note, List<Chord>> getTriads()
     {
-        return triads;
+        return realTriads;
     }
 
     public void addTriads()
@@ -141,10 +141,10 @@ public abstract class Scale
 
 
 
-    public List<Chord> getChords()
-    {
-        return triads;
-    }
+    //public List<Chord> getChords()
+    //{
+    //    return triads;
+    //}
 
 
 

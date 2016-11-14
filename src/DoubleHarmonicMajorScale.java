@@ -16,15 +16,11 @@ public class DoubleHarmonicMajorScale extends Scale
         type = "Double Harmonic Major";
         name = root + " Double Harmonic Major";
 
-
-        //Build scale with appropriate notes based on root
         addNotes();
 
-        //Build triads
+
         addTriads();
 
-        //build variants here
-        //addTriadVariants();
 
         System.out.println("TRIADS FOR " + this + ": ");
         System.out.println(realTriads);
